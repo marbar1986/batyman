@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.cinema{
+  margin: 0 auto;
+  width:1000px;
+  height:600px;
+  background-image: url("../images/kino3_1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.clip_all{
+position: relative;
+border: 2px solid black;
+border-radius: 10px;
+width:800px;
+height:400px;
+top:25px;
+left:100px;
+}
+
+.clip{
+  position:absolute;
+  top:0;
+  left:50%;
+  margin-left: -175px;
+  width:350px;
+  height:400px;
+  background: url("../images/movies_clip2.png") 0 0 ;
+}
+
+.clip_broken{
+  position: absolute;
+  top:0;
+  left:0;
+  width:796px;
+  height:396px;
+  background: url("../images/break_movie.png") 0 0 ;
+  opacity: 0.4;
+  z-index:20000;
+}
+
+.stickman_city{
+  position: absolute;
+  top: 85px;
+  display:none;
+  margin: 0 auto;
+  width:796px;
+  height:230px;
+  background-image: url("../images/city5.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.stickman_move{
+  position: relative;
+  width:0;
+  height:0;
+  top:50px;
+  left:0;
+}
+.stickman_picture{
+  width:100px;
+  height:170px;
+  background: url("../images/stickman_move_all1.png") 0 0;
+  z-index: 999999999999999999;
+}
+.broken_glass{
+  position: relative;
+  display:none;
+  width:190px;
+  height:190px;
+  position:absolute;
+  z-index:10000000000;
+  top:30%;
+  left:42%;
+  background: url("../images/bat/spider5.png");
+}
+.finish_text{
+  position:relative;
+  display:none;
+  width:200px;
+  height:100px;
+  line-height: 100px;
+  font-size:50px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  top:50%;
+  margin-top:-50px;
+  left:50%;
+  margin-left:-100px;
+}

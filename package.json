@@ -1,0 +1,25 @@
+{
+  "name": "batyman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marbar1986/batyman.git"
+  },
+  "author": "marcin barys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marbar1986/batyman/issues"
+  },
+  "homepage": "https://github.com/marbar1986/batyman#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "jquery": "^3.3.1"
+  }
+}
