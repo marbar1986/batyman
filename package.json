@@ -20,6 +20,8 @@
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "jquery": "^3.4.1"
-  }
+    "jquery": "^3.4.1",
+    "lodash.mergewith": "^4.6.2"
+  },
+  "dependencies": {}
 }
