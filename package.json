@@ -24,5 +24,7 @@
     "lodash": "^4.17.19",
     "lodash.mergewith": "^4.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "yargs-parser": "^13.1.2"
+  }
 }
